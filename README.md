@@ -21,7 +21,7 @@ Hashtest
   Dumps pages that are not validated to a specified directory
   
   Usage
-    python vol.py -f <memory image> --profile <memory image OS> hashtest -D <dump directory>
+    python vol.py -f <memory image> --profile <memory image OS> hashtest -s <hash set> -D <dump directory>
   
   Output categories
     Verified      - code hash matched stored hash
